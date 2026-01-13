@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-mobile: 400px;
+}
+
+body {
+  font-family: 'Poppins';
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    rotate: 360deg;
+  }
+}
